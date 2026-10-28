@@ -249,6 +249,6 @@ Promise.all([fetch('data/pubs.json').then(r=>r.json()), fetch('data/summary.json
   document.getElementById('rt').innerHTML = RN.from.slice(0,16).map(([n,c]) => `<tr><td>${title(n)}</td><td class="n">${c}</td></tr>`).join('');
 });
 </script>
-<script src="https://tristan-hotham.github.io/assets/site-nav.js" defer></script>
+<script src="/assets/site-nav.js" defer></script>
 </body>
 </html>
